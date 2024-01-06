@@ -6,7 +6,8 @@
   "main": "app.js",
   "scripts": {
     "start": "node app.js",
-    "bundle": "webpack --mode=development -w"
+    "bundle": "webpack --mode=development -w",
+    "bundle:prod": "webpack --mode=production"
   },
   "repository": {
     "type": "git",
